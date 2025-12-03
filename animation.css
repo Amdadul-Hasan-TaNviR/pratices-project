@@ -1,0 +1,20 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid #F40076;
+    border-top: 20px solid #1092ac;
+    animation: loaderspin .75s ease-in-out 0s infinite normal ;
+    /* animation: name ,duration,tieming fx,dely,itr count, diretiontion*/
+
+    
+}
+
+@keyframes loaderspin {
+    from{
+        transform: rotate(odeg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

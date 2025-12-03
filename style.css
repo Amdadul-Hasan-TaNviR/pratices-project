@@ -1,0 +1,48 @@
+h1{
+    color: rgb(211, 45, 45);
+}
+body{
+    border-style: calc(red);
+    background-color: aqua;
+    text-align: center;
+}
+div{
+    text-align: center;
+    color: rgb(18, 18, 19);
+}
+/* .password{
+    color: blue;
+    } */
+
+
+#box{
+    background-color: blueviolet;
+    color: aqua;
+}
+submit{
+    color: rgb(197, 56, 56);
+}
+button{
+    color: rgb(221, 32, 32);
+    background-color: black;
+}
+/* .password{
+    text-align: left;
+}
+.email{
+    text-align: left;
+} */
+
+h2{
+    font-weight: lighter;
+}
+p{ text-align: left;
+text-decoration: red underline;}
+#one{
+    font-family: serif;
+}
+#two{
+    font-size: large;
+    font-family: Tahoma, sans-serif;
+} 
+p{background-color: white;}

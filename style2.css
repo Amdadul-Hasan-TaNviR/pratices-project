@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+
+
+}
+
+#box1 { 
+    background-color: antiquewhite;
+}
+#box2 { 
+    background-color: bisque;
+    height: 200px;
+}
+#box3 {
+    background-color: blue;
+    width: 300px;
+} 
+#box4 {
+    background-color: rgb(230, 57, 57);
+} 
+#box5 { 
+    background-color: blueviolet;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: burlywood;
+    
+
+}
+hr{
+    color: blue;
+}
+p{
+    color: black;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mieda{
+    background-color: rgb(113, 26, 226);
+    height: 200px;
+    width: 200px;
+}
+@media (max-width: 400px) {
+    .mieda{ background-color: green;}
+}
+@media(min-width:750px){
+    .mieda{background-color: red;}
+}
+
+div{
+    /*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(4);
+    transition-delay: .5s;*/
+    transition: all,2s, ease-in,.5s; 
+
+
+}
+div:hover { 
+    background-color: dimgrey;
+    color: yellow;
+    font-size: 25px;
+} 
+div:active{ 
+    background-color: pink;
+    transform: scale(1.5);
+}
+
+/* transfrom*/
+.transfrom{
+    rotate: 90deg;
+    transform:translate(60px)
+}
+.transfrom:hover{
+    rotate: 0deg;
+    transition: 2s;
+    color: antiquewhite;
+}
+
+.button:hover{
+    background-color: black;
+}
+.button:active{ 
+    background-color: red;
+    transform: translate(100px,50px);
+}
